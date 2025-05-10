@@ -1,5 +1,5 @@
 #Qus-1:  What is the use of enums in TypeScript? Provide an example of a numeric and string enum.<br /><br />
-Ans: In typescript enum are immutable once it decleared.  it is a special class that represent the value that can not change later.<br />
+Ans: In typescript enum are immutable once it decleared.  it is a special class that represent the value that can not change later.<br /><br />
 example of a numeric - [ By default, enum initialized with 0 and increase 1 for each value ]<br />
 
 enum statusCode  {<br />
@@ -7,9 +7,10 @@ enum statusCode  {<br />
     successStatus = 200,<br />
     ErrorStatus =  400,<br />
 }<br />
-console.log("status-",statusCode.successStatus)<br /><br /><br />
+console.log("status-",statusCode.successStatus)<br /><br />
 
-example of a string - enum Status{<br />
+example of a string - <br />
+enum Status{<br />
     createStatus = "createStatus",<br />
     successStatus = "successStatus",<br />
     ErrorStatus =  "ErrorStatus",<br />
